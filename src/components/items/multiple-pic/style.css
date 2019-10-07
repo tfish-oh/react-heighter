@@ -1,0 +1,10 @@
+.multiple-pic{
+    display: flex;
+}
+
+.multiple-pic h3{
+    flex:1;
+}
+.multiple-pic img{
+    width:33%;
+}
