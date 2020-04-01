@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:dev": "./node_modules/.bin/webpack",
+    "build": "./node_modules/.bin/webpack",
     "serve": "./node_modules/.bin/webpack-dev-server"
   },
   "author": "",
@@ -26,6 +26,8 @@
   "dependencies": {
     "echarts": "^4.3.0",
     "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "react-dom": "^16.9.0",
+    "shelljs": "^0.8.3",
+    "yargs": "^15.3.1"
   }
 }

@@ -33,7 +33,7 @@ class Main extends Component{
         renderItem={item=>{
             const type = item.type.replace(/^\w/,code=>code.toUpperCase())
             const ItemComponent=components[type]
-            console.log(type)
+            console.log(type,'88888880000000')
             return <ItemComponent 
             onClick={this.skip}
             data={item.data}
